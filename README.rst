@@ -10,8 +10,9 @@ packets or discarded events).
 
 A description of each trace should be given in this README.
 
-The traces are all compressed, xz (`tar xvJf`) seems to be a good fit (1.5MB
-for a 16MB trace, compared to 2.5MB with gz and 2.2MB with bz2).
+The traces are all compressed with the tar.xz format (`tar xvJf` to extract),
+the archives contain a directory of the same name (without the suffix) that
+contains all the trace files/folders
 
 List of traces
 ==============
