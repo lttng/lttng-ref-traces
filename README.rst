@@ -23,3 +23,7 @@ List of traces
 - `16-cores-rt <traces/16-cores-rt.tar.xz>`_: a real kernel trace of 2 seconds
   recorded with LTTng 2.9.0-pre on a 16 cores server running the PREEMPT_RT
   kernel 4.1.10-rt10). No particular activity, 388738 events, 14MB.
+- `basic-kernel-analysis <traces/basic-kernel-analysis.tar.xz>`_: a real kernel
+  trace of ~5 seconds recorded with LTTng 2.10 on a 2 core virtual machine with
+  all the events necessary to run lttnganalyses. The script to generate a
+  similar trace is also provided.
